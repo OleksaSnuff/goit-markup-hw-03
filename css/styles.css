@@ -4,13 +4,40 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 ul,
 a {
   text-decoration: none;
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .header {
   color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo {
@@ -57,7 +84,13 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  max-width: 496px;
+  margin-bottom: 48px;
 }
+.hero-container {
+  padding: 191px 472px 289px 472px;
+}
+
 .hero {
   background-color: #2e2f42;
 }
